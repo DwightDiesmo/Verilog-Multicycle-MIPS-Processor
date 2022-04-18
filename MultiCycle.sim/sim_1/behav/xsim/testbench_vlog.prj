@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MultiCycle.srcs/sources_1/new/ABR.v" \
+"../../../../MultiCycle.srcs/sources_1/new/ALU.v" \
+"../../../../MultiCycle.srcs/sources_1/new/ALUDecoder.v" \
+"../../../../MultiCycle.srcs/sources_1/new/ALUIn1Mux.v" \
+"../../../../MultiCycle.srcs/sources_1/new/ALUIn2Mux.v" \
+"../../../../MultiCycle.srcs/sources_1/new/ALUOutR.v" \
+"../../../../MultiCycle.srcs/sources_1/new/AND.v" \
+"../../../../MultiCycle.srcs/sources_1/new/AdrMux.v" \
+"../../../../MultiCycle.srcs/sources_1/new/CU.v" \
+"../../../../MultiCycle.srcs/sources_1/new/DR.v" \
+"../../../../MultiCycle.srcs/sources_1/new/IR.v" \
+"../../../../MultiCycle.srcs/sources_1/new/MEM.v" \
+"../../../../MultiCycle.srcs/sources_1/new/MtoRFSelMux.v" \
+"../../../../MultiCycle.srcs/sources_1/new/OR.v" \
+"../../../../MultiCycle.srcs/sources_1/new/PC.v" \
+"../../../../MultiCycle.srcs/sources_1/new/PCSelMux.v" \
+"../../../../MultiCycle.srcs/sources_1/new/RF.v" \
+"../../../../MultiCycle.srcs/sources_1/new/RFDSelMux.v" \
+"../../../../MultiCycle.srcs/sources_1/new/SE.v" \
+"../../../../MultiCycle.srcs/sources_1/new/Top.v" \
+"../../../../MultiCycle.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
